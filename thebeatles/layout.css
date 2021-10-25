@@ -76,23 +76,58 @@
 	line-height: 25px;
 }
 
+.albumscontent{
+  position: relative;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: 1s ease;
+}
+
+.albumscontainer:hover .albumscontent {
+	width: 100%;
+	height: 50%;
+	left: 0;
+	text-align: center;
+}
+
 .videoscontent{
   position: relative;
   bottom: 100%;
   left: 0;
   right: 0;
-  background-color: #008CBA;
   overflow: hidden;
   width: 100%;
   height:0;
-  transition: 0.5s;
+  transition: 1s ease;
 }
 
 .videoscontainer:hover .videoscontent {
-	display: block;
 	width: 100%;
 	height: 15%;
 	left: 0;
+	text-align: center;
+}
+
+.memberscontent{
+	position: relative;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: 1s ease;
+}
+
+.memberscontainer:hover .memberscontent{
+	width: 100%;
+	height: 15%;
+	left: 0;
+	text-align: center;
 }
 
 .lenn1{
